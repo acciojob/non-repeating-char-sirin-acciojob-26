@@ -1,5 +1,4 @@
-javascript
-Copy code
+
 function firstNonRepeatedChar(str) {
     // Create an object to store the count of each character
     const charCount = {};
@@ -8,6 +7,7 @@ function firstNonRepeatedChar(str) {
     for (let char of str) {
         if (charCount[char]) {
             charCount[char]++;
+			
         } else {
             charCount[char] = 1;
         }
